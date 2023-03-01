@@ -85,6 +85,8 @@ def register_user():
     file.close()
 
     username_entry.delete(0, END)
+    
+    
     password_entry.delete(0, END)
 
     Label(register_screen, text="Registration Success", fg="green", font=("calibri", 11)).pack()
